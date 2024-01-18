@@ -18,6 +18,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+// This app doesn't use auth, so this line could theoretically be removed
 app.UseAuthorization();
 
 app.MapRazorPages();
